@@ -52,5 +52,15 @@ def reduce_to_total (array, starting_point = 0)
 end 
 
 def reduce_to_all_true(array)
-  
+  index = 0 
+  while index < array.length
+    if reduce_to_all_true[index] = false 
+      return false
+    end 
+    index += 1 
+  end 
+  true
 end 
+
+def reduce_to_any_true(array)
+end
