@@ -54,7 +54,7 @@ end
 def reduce_to_all_true(array)
   index = 0 
   while index < array.length
-    if !reduce_to_all_true[index]
+    if !array[index]
       return false
     end 
     index += 1 
